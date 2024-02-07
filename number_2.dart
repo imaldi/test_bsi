@@ -25,7 +25,7 @@ main() {
     letterAndCountPair.add((currentLetter, currentLetterCount));
   }
 
-  print("Output List:");
+  print("Output:");
   for (var pair in letterAndCountPair) {
     print("${pair.$1} = ${pair.$2}");
   }
